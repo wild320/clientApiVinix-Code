@@ -3,7 +3,6 @@ import './assets/css/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import{BrowserRouter as Router,Switch,Route} from 'react-router-dom'
-import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import Nuevo from './components/Nuevo';
 import Editar from './components/Editar';

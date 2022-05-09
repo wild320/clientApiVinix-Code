@@ -12,7 +12,7 @@ class Dashboard extends React.Component{
     }
 
     clickPet(id){
-        this.props.history.push("/editar/"+id)
+        this.props.history.push("editar/"+id)
     }
 
     componentDidMount(){
@@ -32,7 +32,7 @@ class Dashboard extends React.Component{
                 <Header></Header>
                 <div className="container">
                     <br></br>
-                <table className="table table-bordered table-hover">
+                <table className="table table-hover">
                     <thead>
                         <tr className="table-primary">   
                             <th scope="col">ID</th>
@@ -56,8 +56,7 @@ class Dashboard extends React.Component{
                                 </tr>
 
                             )
-                        })}
-                        
+                        })}                 
                         
                     </tbody>
                     </table>
